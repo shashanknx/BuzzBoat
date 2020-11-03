@@ -1,6 +1,6 @@
 # Welcome
 
-Setup | Experiments | Documentation
+[Setup]() | [Experiments]() | [Documentation]()
 
 ## Sensors Required
 
