@@ -45,8 +45,8 @@ The data processing python file is provided in the repository. Provided here are
 
 [Help](./help.md)
 
-1: https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a
+1:https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a
 [GitHub pages help]
-2: https://realpython.com/installing-python/
+2:https://realpython.com/installing-python/
 
 
