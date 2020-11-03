@@ -5,6 +5,8 @@
 ## Setup
 This experiment is meant to get you set up with the data aquisition system. It uses the arduino accelerometer module to track you as you move the arduino around. Later on, this data can be read from the arduino SD card into a computer for post-processing. 
 
+## Navigating the Repository 
+
 ### Required Materials
 - [Arduino UNO board](https://store.arduino.cc/usa/arduino-uno-rev3)
 - [SD Card Module](https://www.amazon.com/Storage-Memory-Shield-Module-Arduino/dp/B01IPCAP72)
@@ -13,26 +15,38 @@ This experiment is meant to get you set up with the data aquisition system. It u
 
 ## Setting up the Arduino
 
-Use the [guide](1) from the Arduino website to get the Arduino set up with your computer. 
+Use the [guide][1] from the Arduino website to get the Arduino set up with your computer. 
 
 ## Arduino Code
 
-The code to 
+The full coode to use can be found in the repository under this [link](). Here is how the code was written
 
+```C
+int x = 2; 
+int y = x + 7; 
+
+```
+
+## Procedure
+
+Run your code and then walk around with the arduino for a while to collect data. After collecting your data, turn off the arduino and remove the SD Card. Insert the SD card into your computer. 
 
 ## Data 
 
-Here is a file containing some sample data that you can compare to your own
+Here is a file containing some sample data that you can compare to your own. This was collected from walking around with the arduino board. Compare your file to this one to ensure that the data has been formatted correctly.  
 
 ## Setting up the Python 
 
+Use this [tutorial][2] to set up Python on your machine. 
+
 ## Data Processing
 
-Please see below the data processing code
+The data processing python file is provided in the repository. Provided here are some of the outputs when the data is plotted. 
 
 [Help](./help.md)
 
-(1):https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a
+1: https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a
 [GitHub pages help]
+2: https://realpython.com/installing-python/
 
 
