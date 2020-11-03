@@ -1,8 +1,6 @@
 # Welcome
 
 Setup | Experiments | Documentation
------ | ----------- | -------------
-|
 
 ## Sensors Required
 
