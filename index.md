@@ -15,7 +15,7 @@ This experiment is meant to get you set up with the data aquisition system. It u
 
 ## Setting up the Arduino
 
-Use the [guide][1] from the Arduino website to get the Arduino set up with your computer. 
+Use the [guide](https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a) from the Arduino website to get the Arduino set up with your computer. 
 
 ## Arduino Code
 
@@ -37,16 +37,12 @@ Here is a file containing some sample data that you can compare to your own. Thi
 
 ## Setting up the Python 
 
-Use this [tutorial][2] to set up Python on your machine. 
+Use this [tutorial](https://realpython.com/installing-python/) to set up Python on your machine. 
 
 ## Data Processing
 
 The data processing python file is provided in the repository. Provided here are some of the outputs when the data is plotted. 
 
-[Help](./help.md)
-
-1:https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a
-[GitHub pages help]
-2:https://realpython.com/installing-python/
+[GitHub pages help](./help.md)
 
 
