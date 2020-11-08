@@ -3,46 +3,45 @@
 [Setup]() | [Experiments]() | [Documentation]()
 
 ## Setup
-This experiment is meant to get you set up with the data aquisition system. It uses the arduino accelerometer module to track you as you move the arduino around. Later on, this data can be read from the arduino SD card into a computer for post-processing. 
+This experiment is meant to get you set up with the data aquisition system. It uses the arduino accelerometer module to track you as you move the arduino around. Later on, this data will be read from the arduino SD card into a computer for post-processing. 
 
-## Navigating the Repository 
-
-### Required Materials
+## Required Materials
 - [Arduino UNO board](https://store.arduino.cc/usa/arduino-uno-rev3)
 - [SD Card Module](https://www.amazon.com/Storage-Memory-Shield-Module-Arduino/dp/B01IPCAP72)
 - [Micro SD Card 16 GB](https://www.amazon.com/Micro-Center-Class-Memory-Adapter/dp/B07K835MNR/ref=sr_1_4?dchild=1&keywords=micro+sd+card&nav_sdd=aps&pd_rd_r=9f922f6e-d61f-4d52-bfc6-569fecb70dc9&pd_rd_w=1tPsB&pd_rd_wg=TVKBz&pf_rd_p=f8813af5-8d61-4988-b701-57bd7e498604&pf_rd_r=MV71GVJXZXN2A5EJTEWH&qid=1601353108&refinements=p_n_feature_two_browse-bin%3A6518303011&s=pc&sr=1-4)
 - [LIS3DH Accelerometer](https://www.adafruit.com/product/2809)
 
+## Navigating the Repository 
+
+Go to <https://github.com/shashanknx/BuzzBoat/> to find the repository. Here, click on the folder "Setup" to access the files for this section. 
+
 ## Setting up the Arduino
 
-Use the [guide](https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a) from the Arduino website to get the Arduino set up with your computer. 
+Download the Arduino IDE by clicking on this [link](https://www.arduino.cc/en/software) to get the necessary software installed on your computer. If you have the software or are using the online IDE proceed to the next step.  
 
-## Arduino Code
+### Arduino Code
 
-The full coode to use can be found in the repository folder "Setup" under this [link](). Once 
-
-```C
-int x = 2; 
-int y = x + 7; 
-
-```
+The full coode to use can be found in the repository folder "Setup" under the folder "Arduino". This code is used to take the data from the accelerometer module and save it to the SD card. Load the "accelDemoNew.ino" file into your Arduino. 
 
 ## Procedure
 
-Run your code and then walk around with the arduino for a while to collect data. After collecting your data, turn off the arduino and remove the SD Card. Insert the SD card into your computer. 
+- Make sure the arduino is running, then move it in a counter clockwise circular motion a few times. (Need to talk to Atman about how to do this precisely)
+
+- You can move the arduino in multiple different ways or even hold it still  
 
 ## Data 
 
-Here is a file containing some sample data that you can compare to your own. This was collected from walking around with the arduino board. Compare your file to this one to ensure that the data has been formatted correctly.  
+Sample data for this experiment can be found in the "Data" folder. 
 
 ## Setting up the Python 
 
 Use this [tutorial](https://realpython.com/installing-python/) to set up Python on your machine. 
 
-## Data Processing
+## Data Processing with Python (Todo) 
 
-The data processing python file is provided in the repository. Provided here are some of the outputs when the data is plotted. 
+### Stationary 
 
-[GitHub pages help](./help.md)
+### Circular Movement 
+
 
 
