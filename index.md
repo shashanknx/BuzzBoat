@@ -19,7 +19,7 @@ Use the [guide](https://create.arduino.cc/projecthub/Arduino_Genuino/getting-sta
 
 ## Arduino Code
 
-The full coode to use can be found in the repository under this [link](). Here is how the code was written
+The full coode to use can be found in the repository folder "Setup" under this [link](). Once 
 
 ```C
 int x = 2; 
