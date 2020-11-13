@@ -37,11 +37,11 @@ Sample data for this experiment can be found in the "Data" folder.
 
 Use this [tutorial](https://realpython.com/installing-python/) to set up Python on your machine. 
 
-## Data Processing with Python (Todo) 
-
-### Stationary 
+## Data Processing with Python
 
 ### Circular Movement 
+
+
 
 
 
