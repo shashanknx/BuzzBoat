@@ -47,4 +47,4 @@ Python code can be found in the "Python" folder. After downloading the entire "S
 
 Below is an image of the processed arduino data. As you can see - after adjusting the data the output resembles a sine wave which is characteristic of seim-circular movement.
 
-![](Figure_1.png)
+![](Figure1.png)
