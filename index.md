@@ -1,6 +1,6 @@
 # Welcome
 
-[Setup]() | [Experiments]() | [Documentation]()
+Welcome to the BuzzBoat Arduino Setup Guide. This is a first tutorial to show you an example of data aquisition that can be done for the Solar Boat Project. 
 
 ## Setup
 This experiment is meant to get you set up with the data aquisition system. It uses the arduino accelerometer module to track you as you move the arduino around. Later on, this data will be read from the arduino SD card into a computer for post-processing. 
@@ -39,9 +39,13 @@ Use this [tutorial](https://realpython.com/installing-python/) to set up Python 
 
 ## Data Processing with Python
 
+Python code can be found in the "Python" folder. After downloading the entire "Setup" folder, run the `LIS3DH3.py` file to begin data processing with our sample data. You can edit the code to use data you have collected if you want to compare that output to that from our sample data. Be sure to read the comments in the Python code to understand how we processed the data and feel free to customize it for your own purposes. 
+
 ### Circular Movement 
 
+Below is an image of the processed arduino data. As you can see - after adjusting the data the output resembles a sine wave which is characteristic of seim-circular movement.
 
+![](Figure1.png)
 
 
 
