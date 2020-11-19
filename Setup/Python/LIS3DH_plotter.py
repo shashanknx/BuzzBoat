@@ -191,17 +191,17 @@ fig, ax = plt.subplots(3, 2) # Changed this to be 3x2
 fig.suptitle("6 - Raw and Adjusted OutPut Comparison (subplots)")
 # Plotting the raw values from the data that was read
 # Need to set titles individual for subplots
-ax[0,0].plot(timeStamp, rawX, c='r', marker='.')
+ax[0,0].scatter(timeStamp, rawX, c='r', marker='.')
 ax[0,0].set_title("Raw X Data")
 ax[1,0].scatter(timeStamp, rawY, c='g', marker='.')
 ax[1,0].set_title("Raw Y Data")
 ax[2,0].scatter(timeStamp, rawZ, c='b', marker='.')
 ax[2,0].set_title("Raw Z Data")
-ax[0,1].scatter(timeStamp, adjX, c='r', marker='.')
+ax[0,1].plot(timeStamp, adjX, c='r', marker='.')
 ax[0,1].set_title("Adjusted X Data")
-ax[1,1].scatter(timeStamp, adjY, c='g', marker='.')
+ax[1,1].plot(timeStamp, adjY, c='g', marker='.')
 ax[1,1].set_title("Adjusted Y Data")
-ax[2,1].scatter(timeStamp, adjZ, c='b', marker='.')
+ax[2,1].plot(timeStamp, adjZ, c='b', marker='.')
 ax[2,1].set_title("Adjusted Z Data")
 # Setting the x and y axis labels
 # Two loops to label each column differently
